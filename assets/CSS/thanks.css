@@ -65,7 +65,32 @@ header #demo{
    
 }
 @media only screen and (max-width: 769px){
-    
+    html,body{
+        width: 100%;
+        min-height: 100vh;
+        background: var(--deep-black);
+    }
+   
+    header .navbar-brand{
+        color: var(--white-color) !important;
+    }
+    header #contentThank{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 300px;
+        width: 100%;
+        background: var(--deep-black);
+        color: var(--white-color);
+    }
+    header #demo{
+        margin-top: 100px;
+        border-radius: 74px;
+        position: absolute;
+        top: 200px;
+        left: 15%;
+        margin: auto none;
+    }
 }
 @media only screen and (max-width: 426px){
     

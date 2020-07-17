@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --black-color:  #000000;
+    --white-color:  #FFFFFF;
+    --deep-black: #1F2526;
+    --red-color:  #EB2536;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+    background: url(/assets/src/baby.png) center center/cover no-repeat;
+}
+header .navbar-brand{
+    color: var(--black-color) !important;
+}
+header #contentThank{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 60%;
+    background: var(--deep-black);
+    color: var(--white-color);
+    height: 100%;
+}
+header #contentThank #desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header #contentThank #desc h1{
+    font-size: 40px;
+    line-height: 60px;
+}
+header #contentThank #desc button {
+    background: var(--red-color) !important;
+    border-radius: 70px !important;
+    height: 87px !important;
+    color: var(--white-color) !important;
+    width: 80% !important;
+    text-align: center;
+}
+header #contentThank #desc button a{
+    color: var(--white-color) !important;
+}
+header #demo{
+    background:var(--red-color);
+    color: var(--white-color) !important;
+    border: none !important;
+    width: 214px;
+    height: 87px;
+    font-size: 24px;
+    line-height: 36px;
+    border-radius: 0px 87px 87px 0px;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1107px){
+   
+}
+@media only screen and (max-width: 769px){
+    
+}
+@media only screen and (max-width: 426px){
+    
+}

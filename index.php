@@ -68,7 +68,7 @@
                     <div id="subscription" >
                         <form action="thanks.php" method="post" id="postName">
                             <div class="form-group form-inline no-gutter">
-                                <input type="text" name="email" id="email" class="form-control pl-5" placeholder="Email Address" aria-describedby="helpId" required>
+                                <input type="email" name="email" id="email" class="form-control pl-5" placeholder="Email Address" aria-describedby="helpId" required>
                                 <input type="submit" value="Sign Up" class="btn btn-primary " id="submit" name="submit">
                               </div>
                         </form>
